@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <!-- icon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/256/6769/6769825.png" type="image/x-icon">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Rock Paper Scissors</h1>
+      <div class="button-container">
+        <button class="moves-button"onclick="playGame('rock')">
+          <img src="rock.png" alt="rock hand sign" />
+        </button>
+        <button class="moves-button" onclick="playGame('paper')">
+          <img src="paper.png" alt="paper hand sign" />
+        </button>
+        <button class="moves-button" onclick="playGame('scissors')">
+          <img src="scissors.png" alt="scissors hand sign" />
+        </button>
+      </div>
+
+      <div class="result js-result">
+        <!-- js generated html -->
+        <div class="start-text">
+          <i>Click/Touch the buttons above to play the game</i>
+        </div>
+      </div>
+    </div>
+
+    <div class="author">
+      John Adrian D. Bonto
+    </div>
+
+    <script src="scripts.js">
+    </script>
+  </body>
+</html>
