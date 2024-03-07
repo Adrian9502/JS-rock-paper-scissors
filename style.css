@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 .start-text {
-  width: 330px;
+  width: fit-content;
   padding-left: 10px;
   text-wrap: nowrap;
   padding-right: 10px;
